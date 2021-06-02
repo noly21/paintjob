@@ -1,0 +1,108 @@
+.header{
+    height: 200px;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    margin: 0;
+
+}
+h1{
+    padding-top: 0;
+    color: #656565;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 38pt;
+}
+.nav{
+    background-color: #ea6a5b;
+    height: 35px;
+    align-items:center;
+    display: flex;
+}
+.nav ul li {
+    display: inline;
+    padding: 5px;
+    font-family: arial;
+    font-weight: bolder;
+}
+.disable{
+    color: white;
+}
+.active{
+    color: #333333;
+    border-bottom: solid 3px;
+}
+
+
+.form {
+margin-top: 30px;
+margin-left: 30px;
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+width:30%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+}
+.image{
+    justify-content: center;
+    display: flex;
+
+}
+.myinput{
+    display: inline block;
+
+}
+.btn{
+    background-color:#ea6a5b;
+    padding: 5px;
+    width: 100px;
+    margin-top: 5px;
+    color: white;
+    border: none;
+
+}
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+table th{
+    background-color: #dddddd;
+
+}
+.container{
+    margin-left: 30px;
+    width: 60%;
+    float:left;
+}
+h3{
+    font-family: arial, sans-serif;
+
+}
+.sub-container{
+    width: 30%;
+    float:right;
+    margin-right: 30px;
+}
+.link-active{
+    text-decoration: none;
+    color: #333333;
+}
+.link-disable{
+    text-decoration: none;
+    color: white;
+}
